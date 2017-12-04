@@ -1,1 +1,14 @@
 /* Los estilos de tu proyecto */
+
+.nav {
+	margin: 0;
+	border-radius: 0;
+}
+.fondo {
+	background-image: url(../assets/images/taxi.jpg);
+	background-size: cover; 
+	position: center;
+	background-repeat: no-repeat;
+	height: 550px;
+}
+}
