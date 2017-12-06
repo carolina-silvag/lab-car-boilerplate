@@ -151,7 +151,7 @@
   padding: 5%;
   color: #fff;
   opacity: 0.8;
-    filter: alpha(opacity=60); 
+  filter: alpha(opacity=60); 
 }
 .btnCuadro3 {
   background-color: #f7b617;  

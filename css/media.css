@@ -1,0 +1,22 @@
+@media (max-width: 412px) {
+  .background_1{
+    background-position: bottom 7% center;
+  	background-repeat: no-repeat;
+  	background-size: cover; 
+  	height: 350px;
+  }
+  .background_3{
+  	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+	height: 300px;
+  }
+  .imgPhone2 img {
+  	margin-left: 10%;
+  	width: 60%; 
+  	height: 80%;
+  }
+  .cuadro3 {
+    height: 300px;
+  }
+}
