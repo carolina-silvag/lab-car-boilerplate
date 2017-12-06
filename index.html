@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="assets/bootstrap-3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
   <header>
@@ -76,7 +77,7 @@
           <h4 class="parrafo">viaja con  <img src="assets/images/logoBlanco.png" alt=""></h4>
           <button type="button" class="btn btn-light btnRegistry" data-toggle="modal" data-target="#modalRegistry"><strong>REGISTRATE</strong></button>
           <p class="line"> O bien </p>
-          <button type="button" class="btn btn-light btnRegistry"><strong>Conviértete en un conductor</strong></button>
+          <button type="button" class="btn btn-light btnRegistry" data-toggle="modal" data-target="#modalConduce1"><strong>Conviértete en un conductor</strong></button>
         </div>
         <div class="col-xs-10 col-xs-offset-2 pictureForm hidden-md hidden-sm hidden-lg">
           <h2 class="parrafo">Comienza a viaja con  <img src="assets/images/logoBlanco.png" alt=""></h2>
@@ -110,6 +111,63 @@
               <input class="form-control" type="text" placeholder="Cuidad">
               <input class="form-control" type="text" placeholder="(Opcional) Código de Invitación">
               <button type="button" class="btn btn-default dropdown-toggle btn-nos" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Como te enteraste de nosotros? <span class="caret"></span></button>
+              <button type="button" class="btn btn-info">ENVIAR</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Registro-->
+    <div class="modal fade" id="modalConduce1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content registry2 modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <p type="button" data-toggle="modal"></p> <!-- no lo pude sacar asi que lo hice un p -->
+
+          <div class="modal-body">
+            <form>
+              <div>
+                <label class="control-label" for="inputSuccess2">¿Tienes vehiculo de 4 puertas?</label>
+                <select class="form-control">
+                  <option>Si</option>
+                  <option>No</option>  
+                </select>
+              </div>
+              <div>
+                <label class="control-label" for="inputSuccess2">Marca</label>
+                <select class="form-control">
+                  <option>Elige la marca del vehículo</option>
+                  <option>Elige la marca del vehículo</option> 
+                  <option>Elige la marca del vehículo</option>   
+                </select>
+                <p>¿No ves tu vehiculo en la lista? Envia un correo electronico a <a href="#">sociosmdv@uber.com</a></p>
+              </div>
+              <div>
+                <label class="control-label" for="inputSuccess2">Modelo</label>
+                <select class="form-control">
+                  <option>modelo1</option>
+                  <option>modelo2</option>
+                  <option>modelo3</option>
+                  <option>modelo4</option>  
+                </select>  
+              </div>
+             <div>
+                <label class="control-label" for="inputSuccess2">Año</label>
+                <select class="form-control">
+                  <option>2017</option>
+                  <option>2016</option>
+                  <option>2015</option>
+                  <option>2014</option>  
+                </select>   
+              </div>
+              <div>
+                <label class="control-label" for="inputSuccess2">Número de matrícula</label>
+                <input class="form-control" type="text" id="formGroupInputLarge" placeholder="Número de la matrícula">
+                <p>La informacion de la matricula ayuda a los a clientes a identificar tu vehiculo</p>   
+              </div>
               <button type="button" class="btn btn-info">ENVIAR</button>
             </form>
           </div>
