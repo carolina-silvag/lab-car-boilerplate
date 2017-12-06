@@ -1,14 +1,195 @@
 /* Los estilos de tu proyecto */
-
+/*section header*/
 .nav {
-	margin: 0;
-	border-radius: 0;
+  margin: 0;
+  border-radius: 0;
 }
-.fondo {
-	background-image: url(../assets/images/taxi.jpg);
-	background-size: cover; 
-	position: center;
-	background-repeat: no-repeat;
-	height: 550px;
+.logo {
+  margin-bottom: 3%;
 }
+/*modal iniciar sesión*/
+.loginBackground {
+  background: #08ac9d;
+}
+.login {
+  background: #f5f5f5;
+  border-radius: 5px;
+  margin: 2% 20% 2% 20%; 
+  padding: 5%; 
+}
+.modal-user {
+  background-color: #027feb;
+  display: inline-block;
+  font-size: 200%;
+  border: none;
+}
+.fa-user-circle {
+  color: #2784f3;
+  background: transparent;
+}
+.recoverPassword {
+  margin-top: 4%;
+}
+.recoverPassword a {
+  color: #86342f;
+}
+
+/*section formulario y primer fondo*/
+.background_1 {
+  background-image: url(../assets/images/taxi.jpg);
+  background-position: bottom 7% center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  height: 620px;
+}
+.pictureForm {
+  background-color: #f7b617;
+  margin-top: 10%;
+  padding: 3%;
+}
+.parrafo, .title, .line {
+  color: #fffaee;
+  margin-bottom: 10%; 
+}
+.line {
+  padding-top: 5%;  
+}
+.line:after, .line:before {
+  content: "";
+  border: 1px solid #fff;
+  display: inline-block;
+  width: 30%;
+  /*margin-bottom: 0.6%; */
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.btnRegistry {
+  background-color: #ffffff;
+}
+
+
+/*Modal registro*/
+.registry {
+  background-color: #a9a9a9;
+  width: 60%;
+}
+.form-control {
+  margin-bottom: 3%;
+}
+.btnLogin {
+  width: 100%;
+  margin: 3% 0 3% 0;
+  padding: 2%;  
+  background-color: #000;
+  color: #fff;
+}
+.btnLogin:hover {
+  color: #a9a9a9;
+}
+.btn-info {
+  width: 100%;
+}
+.btn-nos {
+  width: 100%;
+  background-color: #dddddd;
+  margin-bottom: 3%;
+}
+
+/*section registro*/
+.background_2 {
+  background-color: #f7b617;
+}
+.cuadro2 {
+  outline: 1px solid #fff;
+  margin: 2% 0 2% 0;
+}
+.imgPhone {
+  padding: 5%;
+}
+.imgPhone img {
+  width: 60%;
+  height: 60%;
+}
+.descripcion {
+  padding: 5%;
+  color: #fff;
+  text-align: justify;
+}
+.descripcion p {
+  margin: 5% 0 5% 0;
+  font-size: 130%; 
+}
+
+/*imgPhone movil*/
+.titlePhone {
+  color: #fff;
+}
+.imgPhone2 img {
+  width: 100%; 
+}
+.imgPhone2 {
+  padding: 10%; 
+  outline: 1px solid #fff;
+  margin: 6% 3% 6% 3%;
+}
+.linePhone {
+  margin-left: 3%;
+  color: #fff;
+}
+
+/*section conviertete en conductor*/
+.background_3 {
+  background-image: url(../assets/images/conduce.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  height: 500px;
+}
+
+.cuadro3 {
+  background-color: #000;
+  padding: 5%;
+  color: #fff;
+  opacity: 0.8;
+    filter: alpha(opacity=60); 
+}
+.btnCuadro3 {
+  background-color: #f7b617;  
+}
+/*modal conduce registro*/
+.registry2 {
+  background-color: #a9a9a9;
+  width: 80%;
+}
+
+/*section mapa*/
+.background_4 {
+  background-color: #f7b617;
+}
+.cuadro4 {
+  padding: 5%; 
+}
+.cuadro4 input {
+  width: 70%; 
+}
+
+.mapa {
+  outline: 1px solid #fff;
+  margin: 10% 15% 10% 5%;
+  padding: 2%; 
+}
+#map {
+    height: 400px;
+}
+
+ .fondo5 {
+  background-color: #2b2b2b;
+  color: #fff !important;
+}
+ .iconos li {
+  display: inline-block;
+  margin-right: 1%; 
+}
+.iconos li a {
+  color: #fff !important;
 }
