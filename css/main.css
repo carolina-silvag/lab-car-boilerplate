@@ -58,7 +58,7 @@
   content: "";
   border: 1px solid #fff;
   display: inline-block;
-  width: 30%;
+  width: 25%;
   /*margin-bottom: 0.6%; */
   margin-right: 20px;
   margin-left: 20px;
@@ -170,26 +170,70 @@
   padding: 5%; 
 }
 .cuadro4 input {
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid #fff;
   width: 70%; 
 }
-
+.inputBusqueda {
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid #fff;
+}
+.title2, .line2, .line2 a {
+  color: #fff;
+  padding-bottom: 2%;
+}
+.ruta {
+  background-color: #fff;
+  margin-top: 5%;
+  width: 30%; 
+}
 .mapa {
   outline: 1px solid #fff;
-  margin: 10% 15% 10% 5%;
+  margin: 10% 5% 10% 5%;
   padding: 2%; 
 }
 #map {
-    height: 400px;
+    height: 350px;
 }
 
- .fondo5 {
+/*pie de pagina*/
+ .background_5 {
   background-color: #2b2b2b;
   color: #fff !important;
 }
- .iconos li {
+.list1 li {
+  margin-bottom: 5%;
+}
+.list1 li a {
+  color: #fff;
+}
+.list1 {
   display: inline-block;
-  margin-right: 1%; 
+}
+
+.iconos {
+  padding-top: 70%;
+}
+.iconos li {
+  display: inline-block;
+  margin-right: 5%; 
 }
 .iconos li a {
+  color: #fff !important;
+}
+.icoAppsTore img {
+  padding-top: 30%;
+}
+.icoAppsTore2 img, .icoAppsTore img {
+  margin-bottom: 5%;
+}
+
+.iconos2 li {
+  display: inline-block;
+  margin-right: 5%; 
+}
+.iconos2 li a {
   color: #fff !important;
 }
